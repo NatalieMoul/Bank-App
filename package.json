@@ -1,0 +1,13 @@
+{
+  "name": "banking-project",
+  "version": "1.0.0",
+  "scripts": {
+    "backend": "cd laravel-banking-api && php artisan serve",
+    "mobile": "cd bank-app-mobile && npx expo start",
+    "admin": "cd admin-dashboard-web && npm run dev",
+    "start": "concurrently \"npm run backend\" \"npm run mobile\" \"npm run admin\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
