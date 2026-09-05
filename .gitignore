@@ -1,0 +1,13 @@
+# React Native / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Laravel
+vendor/
+.env
+
+# General
+.DS_Store
+Thumbs.db
